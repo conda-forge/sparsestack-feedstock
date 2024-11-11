@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@florian-huber](https://github.com/florian-huber/)
+* [@hechth](https://github.com/hechth/)
 
