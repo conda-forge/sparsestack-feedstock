@@ -1,5 +1,5 @@
 {% set name = "sparsestack" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sparsestack-{{ version }}.tar.gz
-  sha256: 9c9d4694f7500f09165cfa9e128135cff6b8e6b7a69f3bceaf87aa77e2165720
+  sha256: 28f93bae1ab9aeec079d77020afd7859a6b3ad78f754be5e1f81feaad9528b6e
 
 build:
   noarch: python
