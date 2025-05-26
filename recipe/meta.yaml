@@ -1,6 +1,6 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.10" %}
 {% set name = "sparsestack" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sparsestack-{{ version }}.tar.gz
-  sha256: 9c9d4694f7500f09165cfa9e128135cff6b8e6b7a69f3bceaf87aa77e2165720
+  sha256: 920d81f130f9390bcf491ddb60e5924d1223eaa63d818b8476b4eb57e461ed5b
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
